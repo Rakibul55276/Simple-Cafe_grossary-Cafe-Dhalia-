@@ -1,0 +1,675 @@
+body{
+  font: 15px/1.5 century;
+  padding:0;
+  margin:0;
+  background-color:#f4f4f4;
+  text-align:center;
+}
+
+/* Global */
+.container{
+  width:85%;
+   margin:auto;
+  overflow:hidden;
+}
+
+
+.containermenu{
+  width:100%;
+  margin:auto;
+  overflow:hidden;
+}
+
+
+.container5{
+  width:48%;
+  float:left;
+  margin:1%;
+  margin-bottom: 2%;
+  overflow:hidden;
+  
+}
+
+.menut{
+  width:40%;
+  margin:auto;
+  overflow:hidden;
+}
+
+
+.page-title{
+height: 45px;
+background-color: #e8491d;
+font-size: 25px;
+font-family: century;
+text-align: center;
+color: white;
+
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
+
+.button_1{
+  width:100%;
+  height:30px;
+  color: white;
+  background-color: #e8491d;
+  border-radius: 30px;
+  margin-bottom:10px;
+  border: none;
+  font-family: century;
+}
+
+.dark{
+  padding:15px;
+  background:#35424a;
+  color:#ffffff;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+/* Header **/
+header{
+  background:#35424a;
+  color:#ffffff;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:#e8491d 3px solid;
+}
+
+
+header #loginlogo{
+  height: 50px;
+  width: 200px;
+}
+
+#loginlogo img{
+ height: 10%;
+ width: 80%;
+}
+
+
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  font-size:16px;
+}
+
+
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding{
+  float:left;
+}
+
+header #branding h1{
+  margin:0;
+  vertical-align:center;
+
+}
+
+iframe{
+  display: none;
+}
+
+header #branding h2{
+  vertical-align:center;
+}
+
+
+header .highlight, header .current a{
+  color:#e8491d;
+  }
+
+header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+
+
+
+#branding img{
+  margin:0;
+  width: 300px;
+  height: 75px;
+
+}
+
+
+header nav {
+  float:right;
+  margin-top:10px;
+
+}
+
+
+nav img{
+  vertical-align: center;
+  width: 35px;
+  height:35px;
+
+}
+
+
+
+/* Showcase */
+#showcase{
+  min-height:500px;
+  background:url('../img/showcase.jpg') no-repeat 0 -700px;
+  text-align:center;
+  color:#ffffff;
+  font-family: century;
+}
+
+#showcase h1{
+  margin-top:100px;
+  font-size:55px;
+  margin-bottom:10px;
+}
+
+#showcase p{
+  font-size:20px;
+}
+
+label{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 100%;
+    text-align: left;
+    margin: 5px;
+}
+input {
+  display: inline-block;
+  width: 60%;
+  border: none;
+  float: right;
+}
+
+select {
+  display: inline-block;
+  width: 60%;
+  border: none;
+  float: right;
+}
+
+textarea{
+  display: inline-block;
+  width: 59.5%;
+  border: none;
+  float: right;
+}
+
+
+
+
+
+
+/* Login Form */
+
+
+aside#loginform{
+  margin: 0px auto;
+  margin-top: 5%;
+  width:30%;
+  padding: none;
+  border: none;
+
+}
+
+aside#loginform .button_1{
+
+  width:100%;
+  height: 30px;
+  border-radius: 15px;
+}
+
+
+
+#loginform h1{
+
+margin: none;
+border: none;
+height: 30px;
+background-color: #21292d;
+font-size: 20px;
+font-family: century;
+text-align: center;
+color: white;
+
+
+}
+
+
+
+.space{
+  margin-bottom: 10px;
+}
+
+
+
+/* Sidebar */
+aside#sidebar{
+  float:right;
+  width:25%;
+
+}
+
+
+
+aside#sidebar .button_1{
+
+  width:100%;
+  height:30px;
+  border-radius: 30px;
+  margin-top: 2%;
+ 
+
+  
+}
+
+
+
+#sidebar h1{
+
+margin: none;
+height: 10%;
+width:100%;
+background-color: #e8491d;
+font-size: 20px;
+font-family: century;
+text-align: center;
+color: white;
+
+
+}
+
+
+#sidebar label h2{
+
+margin: none;
+background-color:#21292d;
+font-size: 15px;
+font-family: century;
+color: white;
+
+
+}
+
+/* Boxes */
+#boxes{
+  margin:5px;
+  color: white;
+
+}
+
+#boxes h2{
+    margin-bottom: none;
+    color: white;
+    font-size: 20px;
+    background: #e8491d;
+  }
+
+#boxes .box{
+  float:left;
+  text-align: center;
+  margin: 10px;
+  width:25%;
+  padding:2%;
+  background: url('../img/box.png');
+
+}
+
+
+#boxes .box ul{
+
+  list-style: none;
+}
+
+
+
+
+#boxes .box img{
+
+  width:100%;
+  height:180px;
+}
+
+.container2{
+  margin-top: 10px;
+  width:100%;
+  overflow:hidden;
+  background: url('../img/container2.jpg') no-repeat;
+}
+.container3{
+  margin:auto;
+  width:70%;
+  overflow:hidden;
+  
+}
+
+/* Boxes */
+#boxes2{
+  height: 500px;
+  }
+
+  #boxes2 h1{
+    margin-left: 40%;
+    margin-bottom: none;
+    color: white;
+  }
+
+  #boxes2 ul{
+    margin-left: 30%;
+    color: white;
+  }
+
+#boxes2 .box1{
+  margin: none;
+  float:left;
+  text-align: left;
+  width:50%;
+  background: url('../img/box1.png') no-repeat;
+  background-size: 100%;
+}
+
+#boxes2 .box1 img{
+  float: left;
+  width:200px;
+  height:200px;
+}
+
+
+#boxes2 .box2{
+  margin: none;
+  float:right;
+  text-align: left;
+  width:50%;
+  background: url('../img/box2.png') no-repeat;
+  background-size: 100%;
+}
+
+#boxes2 .box2 img{
+
+  float: right; 
+  width:200px;
+  height:200px;
+}
+
+
+article#full-col{
+  float:left;
+  width:100%;
+}
+
+
+/* Main-col */
+article#main-col{
+  margin: 3px;
+  float:left;
+  width:70%;
+}
+
+
+
+/*Footer*/
+
+footer{
+  padding: 2%;
+  color:#ffffff;
+  background-color:#e8491d;
+  text-align: center;
+}
+
+
+
+  
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height:100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+    padding-top: 20px;
+
+}
+
+
+.modal .container{
+  width:60%;
+}
+
+.modal-content img{
+
+  margin-top: 5%;
+  height: 8%;
+  width: 40%;
+}
+
+/* Modal Content/Box */
+.modal-content {
+
+    background-color:#35424a;
+    margin-top: 6%;
+    margin-left: 30%;
+    border: 2px solid #e8491d;
+    width: 40%; /* Could be more or less, depending on screen size */
+    color: white;
+}
+
+
+
+
+.modal-content .button_1{
+  float: left;
+  width:29%;
+  vertical-align: center;
+  margin-right:2%;
+  margin-left: 2%;
+  margin-top: 5%;
+  
+}
+
+/* The Close Button */
+.close {
+    /* Position it in the top right corner outside of the modal */
+    position: absolute;
+    right: 25px;
+    top: 0; 
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+/* Close button on hover */
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+
+.circle{
+	border-radius:175px;
+}
+
+
+
+
+.error {
+  width: 100%;
+  margin: 0px auto; 
+  border: none; 
+  color: white;
+  vertical-align: center;
+  background-color: #942222;
+  text-align: center;
+}
+
+
+.success {
+  color: #3c763d; 
+  background: #dff0d8; 
+  border: 1px solid #3c763d;
+  margin-bottom: 20px;
+}
+
+
+
+table {
+  width: 100%;
+  }
+
+
+table label h3 {
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  background-color: #e8491d;
+  }
+
+  table label h2 {
+  text-align: center;
+  color: #e8491d;
+  font-weight: bold;
+  font-size: 15px;
+  
+  }
+
+ table label h4 {
+  text-align: center;
+  float: left;
+  color: #e8491d;
+  font-style: italic;
+  font-size: 15px;
+  
+  }
+
+
+
+ #admincover{
+  min-height:750px;
+  background:url('../img/showcase.jpg') no-repeat 0 -500px;
+  text-align:center;
+  color:#ffffff;
+  font-family: century;
+}
+
+#admincover h1{
+  margin-top:100px;
+  font-size:55px;
+  margin-bottom:10px;
+}
+
+
+.admincontainer{
+  margin:.15%;
+  float: left;
+  width:24.6%;
+  background-color: #35424a;
+  overflow:hidden;
+
+  }
+
+
+.cadmincontainer{
+  margin:.15%;
+  float: left;
+  width:24.6%;
+  background-color: #e8491d;
+  overflow:hidden;
+
+  }
+
+
+
+  .admincon{
+width: 100%;
+height:20%;
+margin:auto;
+overflow:hidden;
+
+  }
+
+.admincon img{
+  width: 15%;
+  float:left;
+  margin-left: 10%;
+  margin-right: 3%;
+  vertical-align: center;
+}
+
+.admincon h1 {
+ vertical-align: center;
+ color: white
+}
+
+
+
+.acontainer{
+  width:35%;
+  margin:auto;
+  overflow:hidden;
+}
+
+
+aside#adminform{
+  margin: auto;
+  margin-top: 1%;
+  width:100%;
+  padding: none;
+  border: none;
+
+}
+
+
+aside#adminform textarea{
+ float: right;
+}
+
+aside#adminform .button_1{
+
+  width:60%;
+  float: right;
+  height: 30px;
+  border-radius: 15px;
+  margin-top: 2%;
+}
+
+
+#adminform h1 {
+
+margin: none;
+border: none;
+height: 30px;
+background-color: #21292d;
+font-size: 20px;
+font-family: century;
+text-align: center;
+color: white;
+
+}
+
+.admincontainer a, .cadmincontainer a {
+
+text-decoration: none;
+
+}
+
+
+
+
